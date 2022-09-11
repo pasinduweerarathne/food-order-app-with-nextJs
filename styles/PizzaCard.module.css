@@ -1,0 +1,32 @@
+.container {
+  width: 22%;
+  padding: 20px 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  background-color: rgba(179, 179, 179, 0.1);
+  margin: 10px;
+  border-radius: 20px;
+  transition: all 0.2s ease-in-out;
+}
+:hover.container {
+  box-shadow: rgba(0, 0, 0, 0.1) 10px 10px 10px;
+  transition: 0.3s;
+  transform: scale(1.05);
+}
+.title {
+  font-size: 18px;
+  font-weight: bold;
+  color: #d1411e;
+}
+.price {
+  font-size: 18px;
+  font-weight: bold;
+  color: #666;
+}
+.desc {
+  text-align: center;
+  color: #777;
+}

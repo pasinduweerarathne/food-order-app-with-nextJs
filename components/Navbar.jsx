@@ -13,6 +13,7 @@ const Navbar = () => {
             height={32}
           />
         </div>
+
         <div className={styles.texts}>
           <div className={styles.text}>ORDER NOW!</div>
           <div className={styles.text}>077 333 4444</div>
