@@ -17,12 +17,11 @@ const Product = () => {
     <Layout title="Product Page">
       <div className={styles.container}>
         <div className={styles.left}>
-          <div style={{ width: "80%", height: "80%", position: "relative" }}>
-            <Image
+          <div>
+            <img
+              className={styles.imgContainer}
               src={pizza.img}
               alt={pizza.name}
-              layout="fill"
-              objectFit="contain"
             />
           </div>
         </div>

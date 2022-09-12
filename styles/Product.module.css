@@ -13,6 +13,12 @@
   flex: 1;
   padding: 20px;
 }
+.imgContainer {
+  width: 80%;
+  height: 80%;
+  position: relative;
+  object-fit: contain;
+}
 .price {
   color: #d1411e;
   font-size: 24px;
@@ -83,4 +89,41 @@
 :hover.button {
   background-color: #d1411e;
   color: white;
+}
+
+@media screen and (max-width: 480px) {
+  .container {
+    margin-top: 20px;
+    height: auto;
+    text-align: center;
+    flex-direction: column;
+  }
+  .imgContainer {
+    width: 79vw;
+    height: 70vw;
+    object-fit: contain;
+  }
+  .title {
+    margin: 5px;
+  }
+  .sizes {
+    width: 100%;
+    padding: 0px 20px;
+  }
+  .ingredients {
+    flex-direction: column;
+  }
+  .option {
+    margin: 10px;
+    font-size: 18px;
+  }
+  .checkbox {
+    width: 25px;
+    height: 25px;
+  }
+  .quantity,
+  .button {
+    height: 50px;
+    padding: 10px 20px;
+  }
 }
