@@ -87,6 +87,7 @@
   .id::before {
     content: "Order ID: ";
     font-weight: 500;
+    width: auto;
   }
   .name::before {
     content: "Customer: ";

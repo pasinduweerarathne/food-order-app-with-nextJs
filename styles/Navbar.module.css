@@ -54,6 +54,7 @@
 .listItem {
   margin: 10px;
   font-weight: 500;
+  cursor: pointer;
 }
 .cart {
   position: relative;
